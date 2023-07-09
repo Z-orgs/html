@@ -18,6 +18,11 @@ body {
   font-family: "Roboto Condensed", sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
 .main {
   position: relative;
   min-height: 100vh;
@@ -185,4 +190,10 @@ body {
 
 .mb-40 {
   height: 40px;
+}
+
+@media (max-width: 800px) {
+  .cv {
+    margin: 20px;
+  }
 }
